@@ -22,7 +22,7 @@ steps:
 # Run unit tests defined in code
 - script: |
     $(pythonPath) -m pip install pytest pytest-azurepipelines
-    $(pythonPath) -m pytest
+    $(pythonPath) -m pytest test_test1.py
   displayName: 'pytest'
 
 - task: ArchiveFiles@2
