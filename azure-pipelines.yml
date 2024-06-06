@@ -10,7 +10,7 @@ pool:
   name: Default
 
 variables:
-  pythonPath: '/usr/src/Python-3.11.3/python3.11'  # Path to the manually installed Python version
+  pythonPath: '/usr/src/Python-3.11.3/python'  # Path to the manually installed Python version
   #pythonVersion: '3.11'  # Specify the Python version to use
 
 steps:
