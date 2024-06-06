@@ -30,7 +30,7 @@ steps:
     rootFolderOrFile: $(System.DefaultWorkingDirectory)
     includeRootFolder: false
     archiveType: zip
-    archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId)-$(python.version).zip
+    archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId)-python3.11.zip
     replaceExistingArchive: true
 
 # Publish the artifacts folder so that it can be used in the release pipeline to deploy application
