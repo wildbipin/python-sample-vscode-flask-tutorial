@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: bipin-dell
 
 variables:
   pythonVersion: '3.11'  # Specify the Python version to use
